@@ -1,0 +1,67 @@
+# Compiled output
+/bin
+/obj
+/out
+/publish
+/Debug/
+/Release/
+
+# Dependency directories
+/packages/
+/node_modules/
+/bower_components/
+
+# Visual Studio files
+*.csproj.user
+*.sln.user
+*.suo
+*.userprefs
+*.vs/
+*.vssscc
+*.vsmacx
+*.vstemplate
+*.vstemplate.vdir
+*.vspscc
+
+# NuGet files
+*.nupkg
+*.snupkg
+/NuGet.Config
+
+# Test files
+/TestResults/
+/Test*/*TestAdapter.dll
+/Test*/*TestHost.dll
+
+# JetBrains Rider files
+.idea/
+*.iml
+
+# Other files
+*.log
+*.bak
+*.swp
+*.sqlite
+*.sqlite-journal
+*.db
+*.ldb
+*.mdf
+*.ldf
+*.sdf
+*.config
+appsettings.*.json #Avoid committing specific settings, use environment variables.
+/Properties/launchSettings.json # Avoid committing launch settings.
+/secrets.json #Avoid committing secrets.
+/docker-compose.override.yml #Avoid committing sensitive docker-compose overrides.
+
+# Docker files
+/Dockerfile*
+/.dockerignore
+
+#OS generated files
+.DS_Store
+Thumbs.db
+
+#Temporary files from build tools
+*.cache
+*.dump
