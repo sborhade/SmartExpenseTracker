@@ -35,3 +35,26 @@ services:
 networks:
   default:
     name: kafka_network
+
+# version: '3.8'
+# services:
+#   forecasting-service:
+#     build:
+#       context: ./forecasting-service
+#     ports:
+#       - "5000:5000"
+#   expense-service:
+#     build:
+#       context: ./expense-service
+#     ports:
+#       - "5001:5001"
+#   auth-service:
+#     build:
+#       context: ./auth-service
+#     ports:
+#       - "5002:5002"
+#   ai-insights-service:
+#     build:
+#       context: ./ai-insights-service
+#     ports:
+#       - "5003:5003"
